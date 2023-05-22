@@ -154,10 +154,12 @@ span.rate-number:active,span.active{
 
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (
+    -width: 400px) {
     main {
 
         max-width: 353px;
+        min-width: 353px;
     
     }
     

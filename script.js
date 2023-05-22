@@ -7,13 +7,13 @@ let selectedRate = 0;
 
 for(let i = 0 ; i <rate.length ; i++){
     
-    rate[i].addEventListener("click",()=>{
+    rate[i].onclick = ()=>{
         for(let i = 0 ; i<rate.length ; i++){
             rate[i].classList.remove("active");
         }
         rate[i].classList.add("active")
         selectedRate = rate[i].innerHTML;
-    })
+    }
 
 }
 submitButton.onclick =()=>{
